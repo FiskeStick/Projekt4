@@ -1,3 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* størrelse til sektioner*/
+section{
+  width: 100%;
+  height: 1000px;
+  float: left;
