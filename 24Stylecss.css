@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+/* størrelse til sektioner*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #56A0D3;
+  color: #303030;
+}
+
+.Textwrapper {
+    position: relative;
+    left: 20%;
+    height: auto;
+    max-width: 100%;
+    background-color: #56A0D3;
+}
+
+aside {
+  height: 98%;
+min-width: 15%;
+background-color: #303030;
+position: fixed;
+flex-direction: column;
+justify-content: center;
+display: flex;
+}
+
+.navWrapper ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.landingSection h1 {
+    font-size: 40px;
+    color: #2B3E56;
+    margin-left: 10%;
+    font-family: proxima-nova, sans-serif;
+  }
