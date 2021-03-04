@@ -386,12 +386,15 @@ input:focus{
   color: white;
   border-radius: 60px;
   padding-right: 37px;
-
   }
 .Send button:hover{
  transform: scale(1.025);
  box-shadow: 0px 0.5px 3px #56A0D3;
  }
+.Send button:active {
+    outline: none;
+    border: none;
+}
 .kuti{
  padding-left: 500px;
  }
@@ -486,7 +489,6 @@ input:focus{
   font-size: 11px;
   color: white;
   border-radius: 60px;
-
   }
 .knap2 input:hover{
   transform: scale(1.025);
@@ -597,7 +599,6 @@ div ul li a {
    border: none;
    background-color: #303030;
    color:#56A0D3;
-
  }
 
  .epilog h5 {
@@ -616,9 +617,7 @@ width: 100px;
 float: right;
  }
  .Cota{
-
    position: relative; left:200px;
-
  }
 .clearfix{
   overflow: auto;
