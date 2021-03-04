@@ -552,7 +552,7 @@ input:focus{
    }
 .footer{
   width: 100%;
-  height: 1050px;
+  height: 700px;
   background-color: #303030;
   color: #fff;
   font-size: 12px;
@@ -622,4 +622,20 @@ float: right;
 .clearfix{
   overflow: auto;
 }
- @charset "UTF-8";
+@media (min-width:70px) and (max-width:950px){
+   nav {width: 100%;}
+   .logo img  {width: 100%;  }
+   .ome2 {width: 100%;  display: none;}
+   .boxContainer {width: 100%;  display: none;}
+   .elementsContainer a tr td input {width: 100%;  display: none;}
+   .placeholder {width: 100%;  display: none;}
+   .search {width: 100%;  display: none;}
+   .kontakt a center input  {width:100%; display: none;}
+   .del1 center img {width: 100%;}
+   .billede2 center img {width: 100%;}
+   .billede3 center img {width: 100%;}
+   .billede4 center img {width: 100%;}
+   .billede5 center img {width: 100%;}
+   .billede6 center img {width: 100%;}
+   .billede7 center img {width: 100%;}
+ } 
